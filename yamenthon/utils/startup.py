@@ -186,7 +186,7 @@ async def startupmessage():
                 
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس يـــمنثون الخاص بك .. بنجاح 🧸♥️**\n**•⎆┊سورس يـــمنثون يعمل بنجاح 🎗**\n\n**[تحياتي المطور الاسطوره عاشق الصمت](t.me/T_A_Tl)**",
                 
-                buttons=[(Button.url("𝙔𝘼𝙈𝙀𝙉𝙏𝙃𝙊𝙉", "https://t.me/YamenThon"),)],
+                buttons=[[Button.url("𝙔𝘼𝙈𝙀𝙉𝙏𝙃𝙊𝙉™ 𓅛", "https://t.me/YamenThon")],[Button.url("🌟إشتراكـات القسـم المدفـوع🌟", "https://t.me/YamenThon/121")],[Button.url("🌐حلـول الأخطـاء", "https://t.me/YamenThon_support"), Button.url("التحديثات المدفوعـة", "https://t.me/+5bgh-lZe80ZDU0")],[Button.url("𝗬𝗮𝗺𝗲𝗻𝗧𝗵𝗼𝗻 𝗦𝘂𝗽𝗽𝗼𝗿𝘁", "https://t.me/YamenThon_Gorop")],[Button.url("تواصـل مطـور السـورس", "https://t.me/T_A_Tl")]]
                 
             )
 
@@ -275,34 +275,34 @@ async def mybot():
         try:
 
             await bot.send_message("@BotFather", "/setinline")
-            await asyncio.sleep(1)
+            await asyncio.sleep(4)
             await bot.send_message("@BotFather", botname)
-            await asyncio.sleep(1)
+            await asyncio.sleep(2)
             await bot.send_message("@BotFather", "bot")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setname")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
-            await asyncio.sleep(1)
+            await asyncio.sleep(2)
             await bot.send_message("@BotFather", f"مسـاعـد - {bot.me.first_name} ")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setuserpic")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
-            await asyncio.sleep(1)
+            await asyncio.sleep(2)
             await bot.send_file("@BotFather", "yamenthon/resources/Yemen2.jpg")
             await asyncio.sleep(3)
             #await bot.send_message("@BotFather", "/setabouttext")
             #await asyncio.sleep(1)
             #await bot.send_message("@BotFather", botname)
             #await asyncio.sleep(1)
-            #await bot.send_message("@BotFather", f"- بـوت يمنثون المسـاعـد 🤴🦾 الخـاص بـ  {bot.me.first_name} ")
+            #await bot.send_message("@BotFather", f"- البوت المساعد الخاص{bot.me.first_name} ")
             #await asyncio.sleep(3)
             #await bot.send_message("@BotFather", "/setdescription")
             #await asyncio.sleep(1)
             #await bot.send_message("@BotFather", botname)
             #await asyncio.sleep(1)
-            #await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي ♥️\n•⎆┊قنـاة السـورس 🎗 @YamenThon 🌐")
+            #await bot.send_message("@BotFather", f"الوصف في الشات")
         except Exception as e:
             print(e)
 
@@ -360,7 +360,7 @@ async def add_bot_to_logger_group(chat_id):
 
 
 
-yamenthon = {"@YamenThon", "@YamenThon_Gorop", "@Q_A_VI", "@YamenThon_vars", "@YamenThon_support", "@YamenThon_cklaish", "@YamenThon1", "@P_8_8I"}
+yamenthon = {"@YamenThon", "@YamenThon_Gorop", "@Q_A_VI", "@YamenThon_vars", "@Binance_gift1", "@YamenThon_cklaish", "@YamenThon1"}
 async def saves():
 
    for Cat in yamenthon:
